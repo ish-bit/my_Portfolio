@@ -1,0 +1,78 @@
+.homecss{
+    margin-top: 20px;
+    font-family: 'Inter';
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+}
+
+.homeName{
+    font-family: 'Inter';
+    margin-top: 20px;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 38.73px;
+    color: white;
+}
+
+.colorDesignation{
+    color: aqua;
+}
+
+.typing-animation {
+    margin-left: 10px;
+    border-right: 2px solid black; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* Start with no width */
+    animation: typing 4s steps(20, end) forwards, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 15ch; } 
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    20% { border-color: white; }
+}
+
+.homeDescription{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    overflow: scroll;
+}
+
+.portfolioimage{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+
+}
+
+.portfolioimage .ant-image{
+    width: 400px !important; 
+    border-radius: 100%;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.resumenBtn{
+    margin-top: 40px;
+}
+
+.mailIcon{
+    color: aqua;
+    font-size: 30px;
+}
+
+.mailIcon:hover{
+    cursor: pointer;
+}

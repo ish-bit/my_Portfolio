@@ -1,0 +1,29 @@
+.menuClass{
+    justify-content: end;
+    background: transparent;
+}
+
+.headerClass{
+background: rgba(0,0,0,0.8);backdrop-filter: saturate(180%) blur(10px);
+}
+
+.menuClass .ant-menu-title-content{
+    font-size: 25px;
+}
+
+.menuClass .ant-menu-title-content:active{
+    background: #000000;
+}
+
+.menuClass .ant-menu-item .ant-menu-item-only-child:focus{
+    color: white;
+    background-color: #f0f8ff30;
+}
+
+.demo-logo{
+    background-color: #000000;
+}
+
+.menuClass:where(.css-dev-only-do-not-override-zg0ahe).ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected{
+    background-color: rgba(240, 248, 255, 0.137);
+}

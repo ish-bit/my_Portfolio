@@ -1,0 +1,106 @@
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":12085,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:07:02.072Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":12680,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:08:51.977Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":12941,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:09:20.852Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13067,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:11:29.537Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13168,"level":30,"msg":"8080","time":"2024-06-19T16:11:31.661Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13168,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:11:31.664Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13267,"level":30,"msg":"8080 undefined","time":"2024-06-19T16:11:41.699Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13267,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:11:41.701Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13373,"level":30,"msg":"undefined undefined","time":"2024-06-19T16:12:17.573Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13373,"level":30,"msg":"listening on  undefined","time":"2024-06-19T16:12:17.576Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13472,"level":30,"msg":"8080 8080","time":"2024-06-19T16:12:21.467Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13472,"level":30,"msg":"listening on  8080","time":"2024-06-19T16:12:21.470Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13573,"level":30,"msg":"8080 8080","time":"2024-06-19T16:13:09.185Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13573,"level":30,"msg":"listening on  8080","time":"2024-06-19T16:13:09.187Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13677,"level":30,"msg":"8080 8080","time":"2024-06-19T16:13:13.005Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13677,"level":30,"msg":"listening on  8080","time":"2024-06-19T16:13:13.008Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13776,"level":30,"msg":"8080 8080","time":"2024-06-19T16:13:16.178Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":13776,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:13:16.180Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14426,"level":30,"msg":"8080 8080","time":"2024-06-19T16:14:15.262Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14426,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:14:15.265Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14785,"level":30,"msg":"8080 8080","time":"2024-06-19T16:14:19.836Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14785,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:14:19.838Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14972,"level":30,"msg":"8080 8080","time":"2024-06-19T16:15:30.095Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":14972,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:15:30.097Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15157,"level":30,"msg":"8080 8080","time":"2024-06-19T16:15:36.885Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15157,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:15:36.887Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15339,"level":30,"msg":"8080 8080","time":"2024-06-19T16:15:42.011Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15339,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:15:42.013Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15552,"level":30,"msg":"8080 8080","time":"2024-06-19T16:33:31.969Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15552,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:33:31.971Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15754,"level":30,"msg":"8080 8080","time":"2024-06-19T16:33:51.715Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15754,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:33:51.717Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15933,"level":30,"msg":"8080 8080","time":"2024-06-19T16:33:53.378Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":15933,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:33:53.381Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16111,"level":30,"msg":"8080 8080","time":"2024-06-19T16:33:55.327Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16111,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:33:55.330Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16598,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:21.850Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16598,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:21.852Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16778,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:23.821Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16778,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:23.824Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16958,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:28.037Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":16958,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:28.039Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17135,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:30.120Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17135,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:30.122Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17314,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:31.806Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17314,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:31.808Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17491,"level":30,"msg":"8080 8080","time":"2024-06-19T16:38:36.104Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":17491,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:38:36.106Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":37763,"level":30,"msg":"8080 8080","time":"2024-06-19T16:51:24.374Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":37763,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:51:24.377Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":37946,"level":30,"msg":"8080 8080","time":"2024-06-19T16:51:51.442Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":37946,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:51:51.445Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":38305,"level":30,"msg":"8080 8080","time":"2024-06-19T16:51:55.741Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":38305,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:51:55.743Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":38867,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:12.486Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":38867,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:12.488Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39046,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:16.504Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39046,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:16.506Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39405,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:20.343Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39405,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:20.345Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39582,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:22.448Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":39582,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:22.450Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40310,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:44.271Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40310,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:44.273Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40493,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:50.571Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40493,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:50.573Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40676,"level":30,"msg":"8080 8080","time":"2024-06-19T16:53:58.856Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":40676,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:53:58.858Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41043,"level":30,"msg":"8080 8080","time":"2024-06-19T16:54:15.461Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41043,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:54:15.464Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41771,"level":30,"msg":"8080 8080","time":"2024-06-19T16:54:35.165Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41771,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:54:35.167Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41952,"level":30,"msg":"8080 8080","time":"2024-06-19T16:54:43.398Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":41952,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:54:43.401Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42133,"level":30,"msg":"8080 8080","time":"2024-06-19T16:54:56.805Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42133,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:54:56.807Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42312,"level":30,"msg":"8080 8080","time":"2024-06-19T16:55:00.970Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42312,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:55:00.973Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42491,"level":30,"msg":"8080 8080","time":"2024-06-19T16:55:09.898Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42491,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:55:09.901Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42678,"level":30,"msg":"8080 8080","time":"2024-06-19T16:55:30.789Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":42678,"level":30,"msg":"listening on 8080","time":"2024-06-19T16:55:30.791Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":48404,"level":30,"msg":"8080 8080","time":"2024-06-19T17:01:21.040Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":48404,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:01:21.042Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":48585,"level":30,"msg":"8080 8080","time":"2024-06-19T17:01:50.784Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":48585,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:01:50.787Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52070,"level":30,"msg":"8080 8080","time":"2024-06-19T17:04:01.056Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52070,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:04:01.059Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52247,"level":30,"msg":"8080 8080","time":"2024-06-19T17:04:04.543Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52247,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:04:04.545Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52426,"level":30,"msg":"8080 8080","time":"2024-06-19T17:04:09.767Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52426,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:04:09.770Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52619,"level":30,"msg":"8080 8080","time":"2024-06-19T17:04:35.930Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":52619,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:04:35.933Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53179,"level":30,"msg":"8080 8080","time":"2024-06-19T17:05:11.679Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53179,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:05:11.681Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53357,"level":30,"msg":"8080 8080","time":"2024-06-19T17:05:13.078Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53357,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:05:13.081Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53662,"level":30,"msg":"8080 8080","time":"2024-06-19T17:07:00.864Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53662,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:07:00.866Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53859,"level":30,"msg":"8080 8080","time":"2024-06-19T17:07:17.752Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":53859,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:07:17.754Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":54267,"level":30,"msg":"8080 8080","time":"2024-06-19T17:14:49.962Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":54267,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:14:49.965Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":54444,"level":30,"msg":"8080 8080","time":"2024-06-19T17:14:50.484Z","src":{},"v":0}
+{"name":"portfolio-logs","hostname":"ishikas-MacBook-Air.local","pid":54444,"level":30,"msg":"listening on 8080","time":"2024-06-19T17:14:50.486Z","src":{},"v":0}

@@ -1,0 +1,79 @@
+/* CardComponent.css */
+
+.card-container {
+    position: relative;
+    margin: 20px;
+    perspective: 1000px;
+    height: 300px;
+  }
+  
+  .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* .card:hover .card-content {
+    transform: translateY(-100%);
+  } */
+  
+  .draggable-component {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 95, 95, 0.546);
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+    opacity: 1;
+  }
+  
+  .draggable-component h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .draggable-component p {
+    margin: 10px 0;
+  }
+  
+  
+  .draggable-component a img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .draggable-component a:hover {
+    background-color: #ddd;
+  }
+  
+  .card:hover .draggable-component {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .projectName{
+    font-size: 20px;
+    color: aqua;
+    justify-content: center;
+    display: flex;
+  }

@@ -1,0 +1,13 @@
+.homeCard{
+    /* padding: 200px; */
+    padding-left: 200px;
+    padding-right: 200px;
+    border: 0px;
+    background: transparent
+}
+
+.mainPortion{
+    height: 92vh;
+    display: flex;
+    align-items: center ;
+}

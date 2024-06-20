@@ -1,0 +1,53 @@
+import React from "react"
+import { Header } from "antd/es/layout/layout"
+import { Menu } from "antd"
+import "./style.css"
+
+export const AppHeader = (props:any) => {
+
+    const {scrollToElement, aboutme, skills, projects, softwares} = props
+
+    const items = [{
+        key: "1",
+        label: "Home",
+    },
+    {
+        key: "2",
+        label: <a href="#about-me" onClick={()=>scrollToElement(aboutme)}>About Me</a>,
+    },
+    {
+        key: "3",
+        label: <a href="#skill" onClick={()=>scrollToElement(skills)}>Skills</a>,
+    },
+    {
+        key: "4",
+        label: <a href="#skill" onClick={()=>scrollToElement(projects)}>Projects</a>,
+    },
+    {
+        key: "5",
+        label: <a href="#skill" onClick={()=>scrollToElement(softwares)}>Contact</a>,
+    }]
+
+    return (
+        <Header className="headerClass" style={{
+            position: 'sticky',
+            top: 0,
+            width: '100%',
+            zIndex: 1,
+            display: 'flex',
+            alignItems: 'center',
+            height: '8vh',
+            background: 'transparent'
+        }}>
+            <div className="demo-logo" />
+            <Menu
+                theme="dark"
+                mode="horizontal"
+                items={items}
+                style={{ flex: 1, minWidth: 0 }}
+                className="menuClass"
+            />
+
+        </Header>
+    )
+}

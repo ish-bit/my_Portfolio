@@ -1,0 +1,14 @@
+.secondary{
+    background-color: transparent;
+    border: 2px solid aqua;
+    font-size: 24px;
+    font-family: 'Inter';
+    color: aqua;
+    padding: 25px;
+    font-weight: 400;
+}
+
+.secondary:hover{
+    color: #000 !important;
+    background-color: aqua !important;
+}
