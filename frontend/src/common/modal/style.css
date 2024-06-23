@@ -1,0 +1,68 @@
+.projectModalClass .ant-modal-content{
+    background: rgba(49, 48, 48, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.projectModalClass .ant-modal-header {
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .projectModalClass .ant-modal-title {
+    color: #fff;
+  }
+  
+  .projectModalClass .ant-modal-body {
+    color: #fff;
+  }
+  
+  .projectModalClass .ant-modal-footer {
+    background: rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .heading1{
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .title{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .detail{
+    font-size: 19px;
+  }
+
+  .projectModalClass .ant-modal-content .ant-modal-close{
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+  }
+
+  .projectModalClass .ant-modal-body {
+    max-height: 900px; 
+    overflow-y: auto;
+    padding-right: 16px;
+  }
+
+  .projectModalClass .ant-modal-body::-webkit-scrollbar-thumb {
+    background-color: rgba(211, 205, 205, 0.2);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  .projectModalClass .ant-modal-body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 12px;
+  }

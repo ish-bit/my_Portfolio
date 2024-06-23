@@ -46,7 +46,7 @@ export const Intro = () => {
                     </Row>
                 </Col>
                 <Col span={12} className="portfolioimage">
-                    <ImageUploader />
+                    <ImageUploader preview={true} width={400}/>
                 </Col>
             </Row>
         </>

@@ -1,22 +1,11 @@
-/* CardComponent.css */
-
 .card-container {
     position: relative;
     margin: 20px;
     perspective: 1000px;
     height: 300px;
+    transition: transform 0.3s ease;
   }
-  
-  .card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.5s;
-  }
-  
+
   .card-content {
     padding: 20px;
     text-align: center;
@@ -28,7 +17,7 @@
     transform: translateY(-100%);
   } */
   
-  .draggable-component {
+  /* .draggable-component {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,9 +34,9 @@
     align-items: center;
     transition: opacity 0.5s;
     opacity: 1;
-  }
+  } */
   
-  .draggable-component h3 {
+  /* .draggable-component h3 {
     margin: 0;
     font-size: 1.5em;
   }
@@ -76,4 +65,69 @@
     color: aqua;
     justify-content: center;
     display: flex;
+  } */
+
+  .draggable-component {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px; 
+  transform: translateY(100%);
+  transition: transform 0.9s ease-in-out;
+  }
+  
+  .card-container .draggable-component {
+    transform: translateY(0);
+  }
+
+  .card-container:hover{
+    transform: scale(1.05);
+    backdrop-filter: blur(8px);
+  }
+
+  .introductionProject{
+    font-size: 18px;
+    color: black;
+  }
+
+  .movePageIcon{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .movePageIcon:hover{
+    cursor: pointer;
+    color: rgb(38, 85, 160);
+  }
+
+  .ProjectHeading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .justifyCol{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    border-top: 0.75px solid rgb(88, 87, 87);
+  }
+
+  .badge{
+    font-size: 20px;
+    height: 50px;
+    align-content: center;
+    font-weight: 600;
+    backdrop-filter: blur(20px);
+    background-color: rgb(83, 81, 81);
+  }
+
+  .displayOptional{
+    display: none;
   }

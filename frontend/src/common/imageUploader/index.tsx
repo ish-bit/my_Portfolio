@@ -9,10 +9,13 @@ import {
   ZoomOutOutlined,
 } from '@ant-design/icons';
 import { Image, Space } from 'antd';
+import './style.css'
 
 const src = 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png';
 
-export const ImageUploader = () => {
+export const ImageUploader = (props:any) => {
+
+  const {preview, shape, width} = props
 
   const onDownload = () => {
     fetch(src)
@@ -31,9 +34,10 @@ export const ImageUploader = () => {
 
   return (
     <Image
-      width={400}
+      width={width}
       src={src}
-      preview={{
+      className={shape ? 'imageUploader' : ""}
+      preview={preview ? {
         toolbarRender: (
           _,
           {
@@ -60,7 +64,7 @@ export const ImageUploader = () => {
             <UndoOutlined onClick={onReset} />
           </Space>
         ),
-      }}
+      }: false}
     />
   );
 };

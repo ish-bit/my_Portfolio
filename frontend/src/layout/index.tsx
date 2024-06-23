@@ -11,7 +11,7 @@ export const AppLayout = () => {
     const skills = useRef(null)
     const projects = useRef(null)
     const softwares = useRef(null)
-
+    const contact = useRef(null)
 
     const scrollToElement = (myRef:  any) => {
 
@@ -26,7 +26,7 @@ export const AppLayout = () => {
     return (
         <>
             <Layout className="colorsLayeout">
-                <AppHeader aboutme={aboutme} skills={skills} projects={projects} softwares={softwares} scrollToElement={scrollToElement} />
+                <AppHeader aboutme={aboutme} skills={skills} projects={projects} softwares={softwares} contact={contact} scrollToElement={scrollToElement} />
                 <Content
                     style={{
                         marginTop: "0 0px",
@@ -38,7 +38,7 @@ export const AppLayout = () => {
                             padding: 24,
                         }}
                     >
-                        <Home aboutme={aboutme} skills={skills} projects={projects} softwares={softwares}/>
+                        <Home aboutme={aboutme} skills={skills} projects={projects} softwares={softwares} contact={contact}/>
                     </div>
                 </Content>
             </Layout>

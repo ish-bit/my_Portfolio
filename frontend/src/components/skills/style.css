@@ -8,6 +8,8 @@
     font-weight: 700;
     font-family: 'Inter';
     color: white;
+    justify-content: center;
+    display: flex;
 }
 
 .skillName{
@@ -30,21 +32,16 @@
     width: 200px;
 }
 
-
-  
-
-  .wrapper {
+.wrapper {
 	display: flex;
 	animation: scroll 15s linear infinite;
   }
 
-  
   .icon{
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	padding: 20px;
 	margin: 20px;
-	
   }
 
   .animate {
@@ -52,7 +49,7 @@
 	animation-direction: alternate;
   }
 
-  
+
   @keyframes bounce {
 	0% {
 	  transform: translateY(0px);

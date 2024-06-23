@@ -5,27 +5,28 @@ import "./style.css"
 
 export const AppHeader = (props:any) => {
 
-    const {scrollToElement, aboutme, skills, projects, softwares} = props
+    const {scrollToElement, aboutme, skills, projects, softwares, contact} = props
 
-    const items = [{
-        key: "1",
-        label: "Home",
-    },
+    const items = [
     {
-        key: "2",
+        key: "1",
         label: <a href="#about-me" onClick={()=>scrollToElement(aboutme)}>About Me</a>,
     },
     {
-        key: "3",
+        key: "2",
         label: <a href="#skill" onClick={()=>scrollToElement(skills)}>Skills</a>,
     },
     {
-        key: "4",
+        key: "3",
         label: <a href="#skill" onClick={()=>scrollToElement(projects)}>Projects</a>,
     },
     {
+        key: "4",
+        label: <a href="#softwareknown" onClick={()=>scrollToElement(softwares)}>Software Known</a>,
+    },
+    {
         key: "5",
-        label: <a href="#skill" onClick={()=>scrollToElement(softwares)}>Contact</a>,
+        label: <a href="#contact" onClick={()=>scrollToElement(contact)}>Contact</a>,
     }]
 
     return (

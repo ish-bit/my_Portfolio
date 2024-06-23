@@ -34,41 +34,41 @@ export const Skills = () => {
 
 
     const skills: any = [{
-        percent: 30,
+        percent: 95,
         name: "React Js"
     },
     {
-        percent: 30,
+        percent: 95,
         name: "Node Js"
     },
     {
-        percent: 30,
+        percent: 70,
         name: "Javascript"
     },
     {
-        percent: 30,
+        percent: 80,
         name: "Typescript"
     },
     {
-        percent: 30,
+        percent: 90,
         name: "HTML"
     },
-{
-    percent: 30,
-    name: "Node Js"
-},
-{
-    percent: 30,
-    name: "Javascript"
-},
-{
-    percent: 30,
-    name: "Typescript"
-},
-{
-    percent: 30,
-    name: "HTML"
-},
+    {
+        percent: 70,
+        name: "CSS"
+    },
+    {
+        percent: 90,
+        name: "MySQL"
+    },
+    {
+        percent: 90,
+        name: "MongoDB"
+    },
+    {
+        percent: 95,
+        name: "WebSocket"
+    },
     ]
 
     const getClass = (index: any) => {
@@ -79,41 +79,41 @@ export const Skills = () => {
 
     return (
         <>
-        // <Row className="fullWidth">
-            // <Col span={24}>
-                <Row justify='center'>
-                    <Col span={3} className="tittle">
-                        SKILLS
-                    </Col>
-                </Row>
-                <Row justify='center' className="sectionPddingMarging">
-                    <Col span={24}>
-                    <Row justify='center' gutter={100}>
-                            {skills.map((item: any, index: any) => (
-                                
+         <Row className="fullWidth">
+             <Col span={24}>
+                    <Row justify='center'>
+                        <Col span={3} className="tittle">
+                            SKILLS
+                        </Col>
+                    </Row>
+                    <Row justify='center' className="sectionPddingMarging">
+                        <Col span={24}>
+                            <Row justify='center' gutter={100}>
+                                {skills.map((item: any, index: any) => (
+
                                     <Col className="skillCol">
-                                        <Progress type="circle" className="progress" percent={item.percent} size={200} strokeColor='aqua' trailColor='grey' />
+                                        <Progress type="circle" className="progress" percent={item.percent} size={190} strokeColor='aqua' trailColor='grey' />
                                         <div className="skillName">{item.name}</div>
                                     </Col>
-                            ))}
-                                </Row>
-                    </Col>
-                </Row>
-                <Row justify={"center"} className="sectionPddingMarging">
-                    <Col span={20.5}>
-                        <div className="carousel">
-                            <div className="wrapper">
-                                {images.map((image, index) => (
-                                    <div className="carousel-item" key={index}>
-                                        <img src={image} alt={`Logo ${index}`} className={`icon ${getClass(index)}`} />
-                                    </div>
                                 ))}
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row justify={"center"} className="sectionPddingMarging">
+                        <Col span={20.5}>
+                            <div className="carousel">
+                                <div className="wrapper">
+                                    {images.map((image, index) => (
+                                        <div className="carousel-item" key={index}>
+                                            <img src={image} alt={`Logo ${index}`} className={`icon ${getClass(index)}`} />
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
-                    </Col>
-                </Row>
-            // </Col>
-        // </Row>
+                        </Col>
+                    </Row>
+             </Col>
+        </Row>
         </>
     )
 }

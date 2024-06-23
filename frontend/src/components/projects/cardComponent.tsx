@@ -1,38 +1,58 @@
 import React, { useEffect, useState } from "react"
 import './cardComponent.css';
-import { Card, Col, Row } from "antd";
-import pic1 from '../../assets/images/pic1.png'
+import { Badge, Card, Col, Divider, Row } from "antd";
+import warehouse from '../../assets/images/warehouse.jpeg'
+import { ExportOutlined } from '@ant-design/icons'
+import Paragraph from "antd/es/typography/Paragraph";
+import { ProjectInfoModal } from "../../common/modal/projectModal";
 
 
-export const CardComponent = () => {
+export const CardComponent = (props: any) => {
+
+  const { project, setCurrentProject } = props
+  const [ visible, setVisible ] = useState(false)
+
   const [isHovered, setIsHovered] = useState(false);
 
-  const handleClick = () => {
-    
-  }
+ const handleOpenModal = () => {
+  setVisible(true)
+ }
+ const handleClick = () => {
+
+ }
 
   return (
-        <Card
-          className="card-container"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          style={{backgroundImage: `url(${pic1})`}}
-          onClick={handleClick}
-        >
-          
-         
-          {isHovered && (
-            <div className="draggable-component">
-              <h3>More Details</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                lacinia nisi vel lorem cursus, ut scelerisque urna blandit.
-              </p>
-              <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-                <img src="link-icon.png" alt="link icon" />
-              </a>
-            </div>
-          )}
-        </Card>
+    <>
+      <Card
+        className="card-container"
+        onMouseEnter={() => {setIsHovered(true); setCurrentProject(project?.id)}}
+        onMouseLeave={() => {setIsHovered(false); setCurrentProject("")}}
+        style={{ backgroundImage: `url(${project?.image})`, backgroundSize: 'cover' }}
+        onClick={handleClick}
+      >
+        {isHovered && (
+          <div className="draggable-component">
+            <Row>
+              <Col span={24} className="ProjectHeading">
+                {project.H1}
+              </Col>
+            </Row>
+            <Row>
+              <Col >
+                <Paragraph ellipsis={{ rows: 3 }} className="introductionProject">
+                  {project.introduction}
+                </Paragraph>
+              </Col>
+            </Row>
+            <Row justify="center">
+              <Col span={20} className="justifyCol">
+                <span className="movePageIcon" onClick={handleOpenModal}>See More</span>
+              </Col>
+            </Row>
+          </div>
+        )}
+      </Card>
+      <ProjectInfoModal visible={visible} setVisible={setVisible} details={project}/>
+      </>
   );
 };
