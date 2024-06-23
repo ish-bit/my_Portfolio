@@ -7,6 +7,7 @@ const http_1 = __importDefault(require("http"));
 const express_1 = __importDefault(require("express"));
 const index_1 = require("./common/logger/index");
 const dotenv_1 = __importDefault(require("dotenv"));
+const route_1 = require("./modules/portfolio/route");
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 const port = process.env.PORT;
@@ -16,7 +17,7 @@ app.get('/', (req, res) => {
 });
 // Create the HTTP Express Server
 const server = http_1.default.createServer(app);
-//   ProcessRoutes({ app, logger });
+(0, route_1.PortfolioRoutes)({ app, logger: index_1.logger });
 // //initilaize websocket server for sync service
 try {
     server.listen(port, () => {

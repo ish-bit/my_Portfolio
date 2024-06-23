@@ -11,13 +11,22 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AboutController = void 0;
 const service_1 = require("./service");
+const index_1 = require("../../common/respHandler/index");
+const logger_1 = require("../../common/logger");
 class AboutController {
-    constructor({ logger }) {
+    constructor() {
         this.aboutService = new service_1.AboutService();
     }
     readAboutMe(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const result = yield this.aboutService.readAboutMe();
+            try {
+                logger_1.logger.info("code is here");
+                const result = yield this.aboutService.readAboutMe();
+                logger_1.logger.info(result);
+                index_1.respHndlr.sendSuccess(res, result, RESPONSE_STATUS.SUCCESS);
+            }
+            catch (e) {
+            }
         });
     }
 }

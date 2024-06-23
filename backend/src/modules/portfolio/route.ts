@@ -2,11 +2,11 @@ import { Request, Response } from "express";
 import { config } from "../../config";
 import { AboutController } from "./controller";
 
-export const aboutMe = ({app, logger}: any) =>{
+export const PortfolioRoutes = ({app, logger}: any) =>{
 
-    const aboutController = new AboutController(logger)
+    const aboutController = new AboutController()
 
-    app.get(`${config.API_PREFIX}/sites`, (req: Request, res: Response) => {
+    app.get(`${config.API_PREFIX}/aboutme`, (req: Request, res: Response) => {
        aboutController.readAboutMe(req, res);
       });
 

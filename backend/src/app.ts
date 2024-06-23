@@ -2,6 +2,7 @@ import http from 'http'
 import express, { Express, Request, Response } from 'express';
 import { logger } from './common/logger/index';
 import dotenv from 'dotenv';
+import { PortfolioRoutes } from './modules/portfolio/route';
 
 
 dotenv.config();
@@ -16,7 +17,7 @@ app.get('/', (req, res) => {
   // Create the HTTP Express Server
   const server = http.createServer(app);
 
-//   ProcessRoutes({ app, logger });
+  PortfolioRoutes({ app, logger });
   // //initilaize websocket server for sync service
 try{
     server.listen(port, () => {
