@@ -34,7 +34,7 @@ export const Skills = () => {
 
 
     const skills: any = [{
-        percent: 95,
+        percent: 99.99,
         name: "React Js"
     },
     {
@@ -92,7 +92,7 @@ export const Skills = () => {
                                 {skills.map((item: any, index: any) => (
 
                                     <Col className="skillCol">
-                                        <Progress type="circle" className="progress" percent={item.percent} size={190} strokeColor='aqua' trailColor='grey' />
+                                        <Progress type="circle" className="progress" percent={item.percent} size={190} strokeColor='#00FFD1' trailColor='grey' />
                                         <div className="skillName">{item.name}</div>
                                     </Col>
                                 ))}

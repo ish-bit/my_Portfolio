@@ -1,0 +1,112 @@
+.circleCardConatiner{
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    backdrop-filter: blur(100px);
+    background: rgba(145, 143, 143, 0.2);
+    border: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px;
+}
+  
+  .circleCardConatiner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-top-color: #1890ff;
+    animation: runningBorder 1.5s linear infinite;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+  }
+
+  .circleCardConatiner::after {
+    box-shadow: 0 0 15px 5px rgba(24, 144, 255, 0.5);
+    animation: runningGlow 2s linear infinite;
+  }
+  
+  @keyframes runningBorder {
+    0% {
+      border-color: #b2b3b4 transparent transparent transparent;
+    }
+    25% {
+      border-color: #b2b3b4 #b2b3b4 transparent transparent;
+    }
+    50% {
+      border-color: transparent #b2b3b4 #b2b3b4 transparent;
+    }
+    75% {
+      border-color: transparent transparent #b2b3b4 #b2b3b4;
+    }
+    100% {
+      border-color: #b2b3b4 transparent transparent #b2b3b4;
+    }
+  }
+  
+  @keyframes runningGlow {
+    0% {
+      box-shadow: 0 0 100px 100px rgba(223, 224, 226, 0.5);
+      transform: translate(0%, 0%);
+    }
+    25% {
+      box-shadow: 0 0 100px 100px rgba(223, 224, 226, 0.5);
+      transform: translate(100%, 0%);
+    }
+    50% {
+      box-shadow: 0 0 100px 100px rgba(223, 224, 226, 0.5);
+      transform: translate(100%, 100%);
+    }
+    75% {
+      box-shadow: 0 0 100px 100px rgba(223, 224, 226, 0.5);
+      transform: translate(0%, 100%);
+    }
+    100% {
+      box-shadow: 0 0 100px 100px rgba(223, 224, 226, 0.5);
+      transform: translate(0%, 0%);
+    }
+  }
+
+  .leftCircle{
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    backdrop-filter: blur(100px);
+    background: rgba(145, 143, 143, 0.2);
+    border: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px;
+}
+  
+  .leftCircle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid transparent;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-top-color: #1890ff;
+    animation: runningBorder 1.5s linear infinite;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+  }
+
+  .leftCircle::after {
+    box-shadow: 0 0 15px 5px rgba(24, 144, 255, 0.5);
+    animation: runningGlow 2s linear infinite;
+  }
+
+  .rowPddingMarging{
+    margin-top: 50px;
+  }
+
+  .colClass{
+    margin-top: 30px;
+  }
