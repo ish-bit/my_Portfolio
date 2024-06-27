@@ -20,17 +20,21 @@
 }
 
 .progress .ant-progress-text{
-    color: aqua !important;
+    color: rgba(0, 255, 255, 0.578) !important;
+    padding-right: 20px;
+    font-size: 16px;
 }
+
+.skillCard:hover{
+  .progress .ant-progress-text{
+    color: aqua !important;
+  }
+} 
 
 .sectionPddingMarging{
     margin-top: 100px;
 }
 
-
-.progress{
-    width: 200px;
-}
 
 .wrapper {
 	display: flex;
@@ -38,16 +42,14 @@
   }
 
   .icon{
-	width: 90px;
-	height: 90px;
-	padding: 20px;
-	margin: 20px;
+	width: 80px !important;
+  height: 80px;
   }
 
-  .animate {
+  /* .animate {
 	animation: bounce 0.6s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
 	animation-direction: alternate;
-  }
+  } */
 
 
   @keyframes bounce {
@@ -68,4 +70,31 @@
 	100% {
 	  transform: translateX(-100%);
 	}
+  }
+
+  .custom-next-arrow2{
+    visibility: hidden;
+  }
+
+  .custom-prev-arrow2{
+    visibility: hidden;
+  }
+
+  .iconSlider .slick-slide{
+    width: 200px !important;
+  }
+
+  .colClassinSkills{
+    margin-top: 100px;
+  }
+
+  .skillCard{
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    backdrop-filter: blur(100px);
+    background: rgba(145, 143, 143, 0.087);
+  }
+
+  .skillCard .ant-card-body{
+    padding-top: 0px;
   }

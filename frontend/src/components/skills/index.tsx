@@ -1,4 +1,4 @@
-import { Col, Flex, Progress, Row } from "antd"
+import { Card, Col, Flex, Progress, Row } from "antd"
 import React, { useEffect, useState } from "react"
 import './style.css'
 import { Percent } from "antd/es/progress/style"
@@ -8,9 +8,28 @@ import javascript from "../../assets/images/javascript.png"
 import typescript from "../../assets/images/typescript.png"
 import html from "../../assets/images/html.png"
 import css from "../../assets/images/css.png"
+import Slider from 'react-slick';
+import { motion } from 'framer-motion';
+import { CaretLeftOutlined, CaretRightOutlined } from '@ant-design/icons'
+import { useInView } from 'react-intersection-observer';
 
-
-
+const CustomPrevArrow = (props:any) => {
+    const { onClick, className } = props;
+    return (
+      <button className={`custom-prev-arrow2`} onClick={onClick}>
+        <CaretLeftOutlined/>
+      </button>
+    );
+  };
+  
+  const CustomNextArrow = (props:any) => {
+    const { onClick,className } = props;
+    return (
+      <button className={`custom-next-arrow2`} onClick={onClick}>
+        <CaretRightOutlined/>
+      </button>
+    );
+  };
 export const Skills = () => {
 
     const images = [
@@ -27,7 +46,7 @@ export const Skills = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 1800); // Change image every 3 seconds
+        }, 1500); // Change image every 3 seconds
 
         return () => clearInterval(interval);
     }, []);
@@ -35,73 +54,144 @@ export const Skills = () => {
 
     const skills: any = [{
         percent: 99.99,
-        name: "React Js"
+        name: "React Js",
+        image:reactjs
     },
     {
         percent: 95,
-        name: "Node Js"
+        name: "Node Js",
+        image:reactjs
+
     },
     {
         percent: 70,
-        name: "Javascript"
+        name: "Javascript",
+        image:reactjs
+
     },
     {
         percent: 80,
-        name: "Typescript"
+        name: "Typescript",
+        image:reactjs
+
     },
     {
         percent: 90,
-        name: "HTML"
+        name: "HTML",
+        image:reactjs
+
     },
     {
         percent: 70,
-        name: "CSS"
+        name: "CSS",
+        image:reactjs
+
     },
     {
         percent: 90,
-        name: "MySQL"
+        name: "MySQL",
+        image:reactjs
+
     },
     {
         percent: 90,
-        name: "MongoDB"
+        name: "MongoDB",
+        image:reactjs
+
     },
     {
         percent: 95,
-        name: "WebSocket"
+        name: "WebSocket",
+        image:reactjs
+
     },
     ]
 
-    const getClass = (index: any) => {
-        if (index === currentIndex) {
-            return 'animate';
-        }
-    };
+
+    const settings = {
+
+        centerMode: true,
+        centerPadding: '40',
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        prevArrow: <CustomPrevArrow />,
+        nextArrow: <CustomNextArrow />,
+        autoplay: true,
+        autoplaySpeed: 2400,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    };  
+
+      const { ref, inView } = useInView({
+        triggerOnce: false,
+        threshold: 0.1,
+      });
+    
+      const [animate, setAnimate] = useState(false);
+    
+      // Toggle animation based on inView status
+      useEffect(() => {
+        setAnimate(inView);
+      }, [inView]);
 
     return (
         <>
-         <Row className="fullWidth">
+         <Row ref={ref} className="fullWidth">
              <Col span={24}>
-                    <Row justify='center'>
+                    <Row justify='center' style={{paddingTop:100}}>
                         <Col span={3} className="tittle">
                             SKILLS
                         </Col>
                     </Row>
                     <Row justify='center' className="sectionPddingMarging">
                         <Col span={24}>
-                            <Row justify='center' gutter={100}>
-                                {skills.map((item: any, index: any) => (
+                            <Row justify='center' gutter={[70, 30]}>
+                                {/* {skills.map((item: any, index: any) => (
 
                                     <Col className="skillCol">
                                         <Progress type="circle" className="progress" percent={item.percent} size={190} strokeColor='#00FFD1' trailColor='grey' />
                                         <div className="skillName">{item.name}</div>
                                     </Col>
-                                ))}
-                            </Row>
+                                ))} */}
+                                {skills.map((skill:any, index:any) => (
+          <Col xs={24} sm={12} md={8} lg={6} key={index}>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={animate ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+            >
+              <Card className="skillCard">
+                <h4 style={{ color: '#fff', fontSize: '24px' }}>{skill.name}</h4>
+                <Progress
+                  percent={skill.percent}
+                  strokeColor={{
+                    '0%': '#108ee9',
+                    '100%': '#87d068',
+                  }}
+                // strokeColor="#00FFD1"
+                className="progress"
+                  showInfo={true}
+                />
+              </Card>
+            </motion.div>
+          </Col>
+        ))}
+                            </Row> 
                         </Col>
                     </Row>
-                    <Row justify={"center"} className="sectionPddingMarging">
-                        <Col span={20.5}>
-                            <div className="carousel">
+                    <Row justify={"center"}>
+                        <Col span={12} className="colClassinSkills">
+                            {/* <div className="carousel">
                                 <div className="wrapper">
                                     {images.map((image, index) => (
                                         <div className="carousel-item" key={index}>
@@ -109,7 +199,15 @@ export const Skills = () => {
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+                            </div> */}
+                    <Slider {...settings} className="iconSlider">
+                {images.map((image, index) => (
+                                        <div className="iconSliderDiv">
+                                            <img src={image} alt={`Logo ${index}`} className={`icon`} />
+                                        </div>
+                                    ))}
+            </Slider>
+
                         </Col>
                     </Row>
              </Col>

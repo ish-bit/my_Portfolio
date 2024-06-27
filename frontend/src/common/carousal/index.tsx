@@ -3,7 +3,8 @@ import Slider from 'react-slick';
 import './style.css'
 import { Button } from 'antd';
 import { CaretLeftOutlined, CaretRightOutlined } from '@ant-design/icons'
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const CenteredCarousel = (props: any) => {
 
