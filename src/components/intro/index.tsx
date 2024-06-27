@@ -5,6 +5,7 @@ import {ImageUploader} from '../../common/imageUploader'
 import {email, insta, linkedin} from '../../assets/svgs/image'
 import { SecondaryButton } from "../../common/button";
 import {MailFilled, LinkedinFilled} from '@ant-design/icons'
+import { handleDownloadResume } from "../../utils/downloadFunc";
 
 export const Intro = () => {
     return (
@@ -33,7 +34,7 @@ export const Intro = () => {
                     </Row>
                     <Row gutter={50}>
                         <Col className="icons">
-                        <LinkedinFilled className="mailIcon"/>
+                        <a target="_blank" href="https://www.linkedin.com/in/ishika-rastogi321/" ><LinkedinFilled className="mailIcon"/></a>
                         </Col>
                         <Col className="icons">
                         <MailFilled className="mailIcon"/>
@@ -41,12 +42,12 @@ export const Intro = () => {
                     </Row>
                     <Row className="resumenBtn">
                         <Col>
-                        <SecondaryButton>Resume</SecondaryButton>
+                        <a href="IshikaRastogi.pdf" download><SecondaryButton>Resume</SecondaryButton></a>
                         </Col>
                     </Row>
                 </Col>
                 <Col span={12} className="portfolioimage">
-                    <ImageUploader preview={true} width={400}/>
+                    <ImageUploader preview={true} width={200}/>
                 </Col>
             </Row>
         </>

@@ -8,7 +8,7 @@ background: rgba(0,0,0,0.8);backdrop-filter: saturate(180%) blur(10px);
 }
 
 .menuClass .ant-menu-title-content{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .menuClass .ant-menu-title-content:active{

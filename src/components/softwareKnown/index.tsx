@@ -1,5 +1,4 @@
 import { Card, Col, Row } from "antd"
-import { ImageUploader } from "../../common/imageUploader"
 import './style.css'
 import CenteredCarousel from "../../common/carousal"
 import android_std from "../../assets/images/android_studio.png"

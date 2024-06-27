@@ -35,7 +35,7 @@ export const AppLayout = () => {
                     <div
                         className="layout-background"
                         style={{
-                            padding: 24,
+                            padding: 20 ,
                         }}
                     >
                         <Home aboutme={aboutme} skills={skills} projects={projects} softwares={softwares} contact={contact}/>

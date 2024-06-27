@@ -155,7 +155,7 @@ export const Skills = () => {
                     </Row>
                     <Row justify='center' className="sectionPddingMarging">
                         <Col span={24}>
-                            <Row justify='center' gutter={[70, 30]}>
+                            <Row justify='center' gutter={[30, 30]}>
                                 {/* {skills.map((item: any, index: any) => (
 
                                     <Col className="skillCol">
@@ -171,7 +171,7 @@ export const Skills = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
               <Card className="skillCard">
-                <h4 style={{ color: '#fff', fontSize: '24px' }}>{skill.name}</h4>
+                <span style={{ color: '#fff', fontSize: '18px' }}>{skill.name}</span>
                 <Progress
                   percent={skill.percent}
                   strokeColor={{
@@ -191,15 +191,6 @@ export const Skills = () => {
                     </Row>
                     <Row justify={"center"}>
                         <Col span={12} className="colClassinSkills">
-                            {/* <div className="carousel">
-                                <div className="wrapper">
-                                    {images.map((image, index) => (
-                                        <div className="carousel-item" key={index}>
-                                            <img src={image} alt={`Logo ${index}`} className={`icon ${getClass(index)}`} />
-                                        </div>
-                                    ))}
-                                </div>
-                            </div> */}
                     <Slider {...settings} className="iconSlider">
                 {images.map((image, index) => (
                                         <div className="iconSliderDiv">

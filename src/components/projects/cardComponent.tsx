@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import './cardComponent.css';
-import { Badge, Card, Col, Divider, Row } from "antd";
-import warehouse from '../../assets/images/warehouse.jpeg'
-import { ExportOutlined } from '@ant-design/icons'
+import { Card, Col, Row } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
 import { ProjectInfoModal } from "../../common/modal/projectModal";
 
@@ -39,7 +37,7 @@ export const CardComponent = (props: any) => {
             </Row>
             <Row>
               <Col >
-                <Paragraph ellipsis={{ rows: 3 }} className="introductionProject">
+                <Paragraph ellipsis={{ rows: 4 }} className="introductionProject">
                   {project.introduction}
                 </Paragraph>
               </Col>

@@ -1,6 +1,6 @@
-import warehouse from '../../assets/images/warehouse.jpeg'
-import fph from '../../assets/images/fph.jpeg'
-import bib from '../../assets/images/bib.jpeg'
+import warehouse from '../../assets/images/warehouse.png'
+import fph from '../../assets/images/fph.png'
+import bib from '../../assets/images/bib.png'
 
 
 export const Smartcosmos = {

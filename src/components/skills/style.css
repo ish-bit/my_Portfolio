@@ -3,7 +3,7 @@
 }
 
 .tittle{
-    font-size: 50px;
+    font-size:40px;
     line-height: 48.81px;
     font-weight: 700;
     font-family: 'Inter';
@@ -32,7 +32,7 @@
 } 
 
 .sectionPddingMarging{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -42,8 +42,8 @@
   }
 
   .icon{
-	width: 80px !important;
-  height: 80px;
+	width: 50px !important;
+  height: 50px;
   }
 
   /* .animate {
@@ -81,7 +81,7 @@
   }
 
   .iconSlider .slick-slide{
-    width: 200px !important;
+    width: 150px !important;
   }
 
   .colClassinSkills{
@@ -96,5 +96,5 @@
   }
 
   .skillCard .ant-card-body{
-    padding-top: 0px;
+    padding: 20px;
   }

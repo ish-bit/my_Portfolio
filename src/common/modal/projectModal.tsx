@@ -7,12 +7,12 @@ export const ProjectInfoModal = (props: any) => {
         setVisible(false)
     }
     return (
-        <Modal open={visible} centered onCancel={handleClose} footer={null} width={800} className="projectModalClass" >
-            <Row>
-                <Col span={20} className="heading1">
-                    {details?.H1}
-                </Col>
-            </Row>
+        <Modal open={visible} centered onCancel={handleClose} footer={null} width={600} className="projectModalClass" title={<Row>
+            <Col span={20} className="heading1">
+                {details?.H1}
+            </Col>
+        </Row>} >
+            
             <Row>
                 <Col span={24} className="title">
                 Introduction

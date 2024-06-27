@@ -1,5 +1,5 @@
 .projectModalClass .ant-modal-content{
-    background: rgba(49, 48, 48, 0.6);
+    background: rgba(49, 48, 48, 0.823);
     border-radius: 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -27,20 +27,20 @@
   }
 
   .heading1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     align-items: center;
   }
 
   .title{
-    margin-top: 20px;
-    font-size: 22px;
+    margin-top: 16px;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
   }
 
   .detail{
-    font-size: 19px;
+    font-size: 13px;
   }
 
   .projectModalClass .ant-modal-content .ant-modal-close{
@@ -51,7 +51,7 @@
   }
 
   .projectModalClass .ant-modal-body {
-    max-height: 900px; 
+    max-height: 550px; 
     overflow-y: auto;
     padding-right: 16px;
   }
@@ -65,4 +65,8 @@
   .projectModalClass .ant-modal-body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 0.5);
     width: 12px;
+  }
+
+  .projectModalClass .ant-modal-header{
+    background: transparent;
   }
