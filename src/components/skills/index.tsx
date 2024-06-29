@@ -12,6 +12,7 @@ import Slider from 'react-slick';
 import { motion } from 'framer-motion';
 import { CaretLeftOutlined, CaretRightOutlined } from '@ant-design/icons'
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 const CustomPrevArrow = (props:any) => {
     const { onClick, className } = props;
@@ -194,7 +195,7 @@ export const Skills = () => {
                     <Slider {...settings} className="iconSlider">
                 {images.map((image, index) => (
                                         <div className="iconSliderDiv">
-                                            <img src={image} alt={`Logo ${index}`} className={`icon`} />
+                                            <Image src={image} alt={`Logo ${index}`} className={`icon`} />
                                         </div>
                                     ))}
             </Slider>

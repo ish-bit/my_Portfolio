@@ -25,7 +25,7 @@ export const CardComponent = (props: any) => {
         className="card-container"
         onMouseEnter={() => {setIsHovered(true); setCurrentProject(project?.id)}}
         onMouseLeave={() => {setIsHovered(false); setCurrentProject("")}}
-        style={{ backgroundImage: `url(${project?.image})`, backgroundSize: 'cover' }}
+        style={{ backgroundImage: `url(${project?.image?.src})`, backgroundSize: 'cover' }}
         onClick={handleClick}
       >
         {isHovered && (
