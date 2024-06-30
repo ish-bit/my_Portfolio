@@ -1,12 +1,12 @@
 import { Badge, Col, Row } from "antd"
 import React, { useState } from "react"
 import { CardComponent } from './cardComponent'
-import { Bibliotheca, FPH, Smartcosmos } from "./dummyEnums"
+import { Bibliotheca, FPH, PMS, Smartcosmos, healthLink } from "./dummyEnums"
 
 export const Projects = () => {
 
     const [currentProject, setCurrentProject] = useState()
-    const projects: any = [Smartcosmos, FPH, Bibliotheca]
+    const projects: any = [Smartcosmos, FPH, PMS, healthLink]
 
     return (
         <Row className="fullWidth">
