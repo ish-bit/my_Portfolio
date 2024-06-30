@@ -11,3 +11,9 @@
     display: flex;
     align-items: center ;
 }
+
+.contactPortion{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(2, 2, 12);
+}

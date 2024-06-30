@@ -14,11 +14,11 @@ export const AppHeader = (props:any) => {
     },
     {
         key: "2",
-        label: <a href="#skill" onClick={()=>scrollToElement(skills)}>Skills</a>,
+        label: <a href="#skills" onClick={()=>scrollToElement(skills)}>Skills</a>,
     },
     {
         key: "3",
-        label: <a href="#skill" onClick={()=>scrollToElement(projects)}>Projects</a>,
+        label: <a href="#projects" onClick={()=>scrollToElement(projects)}>Projects</a>,
     },
     {
         key: "4",

@@ -28,10 +28,10 @@ export const Home = (props:any) => {
             <section ref={softwares} className="mainPortion">
             <SoftwareKnown/>
             </section>
-            <section ref={contact} className="mainPortion">
+        </Card>
+        <section ref={contact} className="contactPortion">
             <ContactDetails/>
             </section>
-        </Card>
         </>
     )
 }

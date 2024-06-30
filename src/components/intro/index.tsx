@@ -2,10 +2,7 @@ import React from "react";
 import { Col, Row } from "antd";
 import './style.css'
 import {ImageUploader} from '../../common/imageUploader'
-import {email, insta, linkedin} from '../../assets/svgs/image'
 import { SecondaryButton } from "../../common/button";
-import {MailFilled, LinkedinFilled} from '@ant-design/icons'
-import { handleDownloadResume } from "../../utils/downloadFunc";
 
 export const Intro = () => {
     return (
@@ -30,14 +27,6 @@ export const Intro = () => {
                     <Row>
                         <Col className="homeDescription">
                             I am a dedicated Full Stack Developer with 2.5+ years of experience, specializing in crafting responsive web applications. Proficient in front-end technologies like HTML, CSS, and JavaScript frameworks, and adept in back-end development with Node.js, Express, and databases. Passionate about delivering innovative solutions and enhancing user experiences through clean and efficient code.
-                        </Col>
-                    </Row>
-                    <Row gutter={50}>
-                        <Col className="icons">
-                        <a target="_blank" href="https://www.linkedin.com/in/ishika-rastogi321/" ><LinkedinFilled className="mailIcon"/></a>
-                        </Col>
-                        <Col className="icons">
-                        <MailFilled className="mailIcon"/>
                         </Col>
                     </Row>
                     <Row className="resumenBtn">
