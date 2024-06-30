@@ -6,7 +6,6 @@ import {Skills} from '../skills'
 import {Projects} from '../projects'
 import { SoftwareKnown } from "../softwareKnown"
 import { ContactDetails } from "../contact"
-import '../../light-theme.less';
 
 
 export const Home = (props:any) => {

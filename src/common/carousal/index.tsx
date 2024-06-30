@@ -5,6 +5,7 @@ import { Button } from 'antd';
 import { CaretLeftOutlined, CaretRightOutlined } from '@ant-design/icons'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
 
 const CenteredCarousel = (props: any) => {
 
@@ -41,7 +42,7 @@ const CenteredCarousel = (props: any) => {
                     <div key={item.id} className="carousel-item1">
                         <div className='carousal-div'>
                             <div className='internalDiv'>
-                                <img className="imageCSS" src={item.image} alt={item.content} />
+                                <Image className="imageCSS" src={item.image} alt={item.content} />
                                 <div className="carousel-item-content">
                                     {item.description}
                                 </div>
