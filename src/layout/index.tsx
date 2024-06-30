@@ -32,12 +32,7 @@ export const AppLayout = () => {
                         marginTop: "0 0px",
                     }}
                 >
-                    <div
-                        className="layout-background"
-                        style={{
-                            padding: 20 ,
-                        }}
-                    >
+                    <div>
                         <Home aboutme={aboutme} skills={skills} projects={projects} softwares={softwares} contact={contact}/>
                     </div>
                 </Content>

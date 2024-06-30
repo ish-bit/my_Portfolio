@@ -1,0 +1,14 @@
+.contact{
+    margin-top: 100px;
+}
+
+.contacturl{
+    color: aqua;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contacturl:hover{
+    color: antiquewhite;
+}
