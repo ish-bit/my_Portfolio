@@ -26,7 +26,7 @@ export const Intro = () => {
                     </Row>
                     <Row>
                         <Col className="homeDescription">
-                            I am a dedicated Full Stack Developer with 2.5+ years of experience, specializing in crafting responsive web applications. Proficient in front-end technologies like HTML, CSS, and JavaScript frameworks, and adept in back-end development with Node.js, Express, and databases. Passionate about delivering innovative solutions and enhancing user experiences through clean and efficient code.
+                        I am a passionate Full Stack Developer with over 2.5 years of experience in building responsive web applications. I excel in front-end technologies such as HTML, CSS, and JavaScript frameworks, and am adept at back-end development using Node.js, Express, and databases. My expertise includes designing and integrating REST APIs, managing state with Redux, and adhering to SOLID principles for maintainable and scalable code. I have extensive experience working with both MongoDB and MySQL, ensuring efficient data storage and retrieval. My focus is on delivering innovative solutions and enhancing user experiences through clean, efficient, and well-structured code.
                         </Col>
                     </Row>
                     <Row className="resumenBtn">

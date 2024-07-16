@@ -39,7 +39,7 @@ export const ProjectInfoModal = (props: any) => {
             </Row>
             <Row>
                 <Col span={24} className="title">
-                Outcome
+                Conclusion
                 </Col>
                 <Col span={24} className="detail">
                 {details?.conclusion}

@@ -12,7 +12,7 @@ background: rgba(0,0,0,0.8);backdrop-filter: saturate(180%) blur(10px);
 }
 
 .menuClass .ant-menu-title-content:active{
-    background: #000000;
+    background: transparent;
 }
 
 .menuClass .ant-menu-item .ant-menu-item-only-child:focus{
@@ -21,9 +21,20 @@ background: rgba(0,0,0,0.8);backdrop-filter: saturate(180%) blur(10px);
 }
 
 .demo-logo{
-    background-color: #000000;
+    background-color: transparent;
+    font-family: Inder;
+font-size: 36px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.2em;
+text-align: center;
+color: white;
 }
 
 .menuClass:where(.css-dev-only-do-not-override-zg0ahe).ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected{
     background-color: rgba(240, 248, 255, 0.137);
+}
+
+.menuClass .ant-menu-item-selected{
+    background-color: rgba(255, 255, 255, 0.148) !important;
 }

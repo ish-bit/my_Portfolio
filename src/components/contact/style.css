@@ -3,7 +3,7 @@
 }
 
 .contacturl{
-    color: aqua;
+    color: rgba(165, 161, 161, 0.5);
     font-size: 18px;
     margin-left: 10px;
     cursor: pointer;
@@ -11,4 +11,85 @@
 
 .contacturl:hover{
     color: antiquewhite;
+}
+
+.mailIcon2{
+    font-size: 20px;
+    color: rgba(165, 161, 161, 0.5);
+}
+
+.mailIcon3{
+    font-size: 15px;
+    color: rgba(165, 161, 161, 0.5);
+    padding-left: 8px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
+.contactRow{
+    padding: 30px;
+}
+
+.contactCol{
+    padding-top: 8px;
+}
+
+.hoverEmail:hover{
+    .mailIcon3{
+    visibility: visible;
+    color: white;
+    }
+}
+
+.hoverNumber:hover{
+    .mailIcon3{
+        visibility: visible;
+        color: white;
+        }
+}
+
+.hoverlink:hover{
+    .mailIcon3{
+        visibility: visible;
+        color: white;
+        }
+}
+
+.detailesRow{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nameIshika{
+font-family: Karantina;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.34em;
+text-align: left;
+color: rgba(165, 161, 161, 0.5);
+}
+
+.reserveRigts{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.4px;
+letter-spacing: 0.15em;
+text-align: right;
+color: rgba(165, 161, 161, 0.5);
+
+}
+
+.thanks{
+    font-family: Kavivanar;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.34em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+;
 }

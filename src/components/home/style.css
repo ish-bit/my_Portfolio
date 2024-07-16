@@ -13,7 +13,8 @@
 }
 
 .contactPortion{
-    height: 50vh;
+    padding-top: 50px;
+    height: 45vh;
     width: 100%;
-    background-color: rgb(2, 2, 12);
+    background-color: rgba(2, 2, 12, 0.13)
 }
