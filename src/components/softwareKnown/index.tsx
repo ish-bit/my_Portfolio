@@ -36,22 +36,22 @@ export const SoftwareKnown = () => {
         },
         {
             name: "",
-            description: "Proficient in using Confluence, a collaborative workspace software by Atlassian. Experienced in creating and managing documentation, knowledge bases, and project wikis. Skilled in organizing content with pages, spaces, and templates, mentions, and task assignments. Adept at integrating Confluence with other tools like Jira to streamline project management and enhance team productivity.",
+            description: "Proficient in Confluence, Atlassian's collaborative workspace software. Experienced in creating and managing documentation, knowledge bases, and project wikis. Skilled in organizing content with pages, spaces, templates, mentions, and task assignments. Adept at integrating Confluence with tools like Jira to streamline project management and boost team productivity.",
             image: confluence
         },
         {
             name: "",
-            description: "Proficient in using Jira Software, a project management tool by Atlassian. Experienced in creating and managing project backlogs, sprints, and workflows. Skilled in tracking issues, bugs, and user stories, and utilizing advanced reporting and dashboard features to monitor project progress. Adept at configuring Jira for agile methodologies, including Scrum and Kanban, to enhance team collaboration and productivity.",
+            description: "Proficient in Jira Software, Atlassian's project management tool. Experienced in managing project backlogs, sprints, and workflows. Skilled in tracking issues, bugs, and user stories, and using advanced reporting and dashboards to monitor progress. Adept at configuring Jira for agile methodologies like Scrum to boost team collaboration and productivity.",
             image: jira
         },
         {
             name: "",
-            description: "Proficient in using MongoDB Compass, a graphical user interface (GUI) for MongoDB. Experienced in visualizing and interacting with MongoDB data, querying and aggregating data with intuitive tools, and optimizing database performance through index management. Skilled in understanding database schema, executing ad-hoc queries, and exploring data structures for efficient development and troubleshooting.",
+            description: "Proficient in MongoDB Compass, a GUI for MongoDB, with experience in data visualization, querying, and aggregation. Skilled in optimizing performance through index management, understanding database schemas, executing ad-hoc queries, and exploring data structures for efficient development and troubleshooting.",
             image: mongodb
         },
         {
             name: "",
-            description: "Proficient in using SQL Workbench, a cross-platform SQL client tool. Experienced in connecting to various relational databases, executing SQL queries, and managing database schemas and tables. Skilled in generating reports, exporting/importing data, and optimizing SQL queries for improved database performance. Adept at utilizing SQL Workbench's features to streamline database management and enhance data analysis capabilities.",
+            description: "Proficient in SQL Workbench, a cross-platform SQL client. Experienced in connecting to databases, executing queries, and managing schemas and tables. Skilled in report generation, data export/import, and query optimization. Adept at leveraging SQL Workbench's features for efficient database management and data analysis.",
             image: wrkbench
         }
         ]

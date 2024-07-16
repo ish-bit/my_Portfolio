@@ -40,7 +40,7 @@ export const AppHeader = (props:any) => {
             height: '8vh',
             background: 'transparent'
         }}>
-            <div className="demo-logo" />
+            <div className="demo-logo">Portfolio</div>
             <Menu
                 theme="dark"
                 mode="horizontal"

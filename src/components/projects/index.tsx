@@ -13,7 +13,7 @@ export const Projects = () => {
             <Col span={24}>
                 <Row justify='center'>
                     <Col span={24} className="tittle">
-                        PROJECTS
+                        projects
                     </Col>
                 </Row>
                 <Row justify='center' className="sectionPddingMarging" gutter={28}>

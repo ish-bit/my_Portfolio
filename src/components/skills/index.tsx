@@ -54,7 +54,7 @@ export const Skills = () => {
 
 
     const skills: any = [{
-        percent: 99.99,
+        percent: 95,
         name: "React Js",
         image:reactjs
     },
@@ -88,6 +88,18 @@ export const Skills = () => {
         image:reactjs
 
     },
+    {
+      percent: 90,
+      name: "Redux",
+      image:reactjs
+
+  },
+  {
+    percent: 90,
+    name: "REST API",
+    image:reactjs
+
+},
     {
         percent: 90,
         name: "MySQL",
@@ -151,7 +163,7 @@ export const Skills = () => {
              <Col span={24}>
                     <Row justify='center' style={{paddingTop:100}}>
                         <Col span={3} className="tittle">
-                            SKILLS
+                            skills
                         </Col>
                     </Row>
                     <Row justify='center' className="sectionPddingMarging">

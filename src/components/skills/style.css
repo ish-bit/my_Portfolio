@@ -3,13 +3,15 @@
 }
 
 .tittle{
-    font-size:40px;
-    line-height: 48.81px;
-    font-weight: 700;
-    font-family: 'Inter';
+  font-family: Inder;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.05em;
     color: white;
     justify-content: center;
     display: flex;
+    text-transform: capitalize;
 }
 
 .skillName{
@@ -85,7 +87,7 @@
   }
 
   .colClassinSkills{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .skillCard{
@@ -97,4 +99,8 @@
 
   .skillCard .ant-card-body{
     padding: 20px;
+  }
+
+  .slick-dots{
+    display: none !important;
   }
