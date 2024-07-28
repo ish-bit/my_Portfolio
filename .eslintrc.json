@@ -9,7 +9,7 @@
       "react"
     ],
     "rules": {
-      // Your custom rules
-    }
+    "rule-name": "off"
+  }
   }
   
