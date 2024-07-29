@@ -7,7 +7,7 @@ import { SecondaryButton } from "../../common/button";
 export const Intro = () => {
     return (
         <>
-            <Row justify='space-between'>
+            <Row justify='space-between' gutter={[0, 20]}>
                 <Col xl={12} lg={12} md={12} sm={24} xs={24}>
                     <Row>
                         <Col className="homecss">Hello, It’s Me</Col>
@@ -35,9 +35,9 @@ export const Intro = () => {
                         </Col>
                     </Row>
                 </Col>
-                {/* <Col span={12} className="portfolioimage">
+                <Col span={12} className="portfolioimage">
                     <ImageUploader preview={true} width={200}/>
-                </Col> */}
+                </Col>
             </Row>
         </>
     );
