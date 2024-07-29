@@ -74,7 +74,7 @@ color: rgba(165, 161, 161, 0.5);
 
 .reserveRigts{
     font-family: Inter;
-font-size: 20px;
+font-size: 2vh;
 font-weight: 400;
 line-height: 24.4px;
 letter-spacing: 0.15em;
@@ -93,3 +93,12 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 ;
 }
+
+@media only screen and (max-width: 768px) {
+    .nameIshika{
+      text-align: center;
+    }
+    .reserveRigts{
+        text-align: center;
+    }
+  }

@@ -7,14 +7,15 @@
 }
 
 .mainPortion{
-    height: 92vh;
+    /* height: 92vh; */
     display: flex;
+    padding: 3vw;
     align-items: center ;
 }
 
 .contactPortion{
     padding-top: 50px;
-    height: 45vh;
+    /* height: 50vh; */
     width: 100%;
     background-color: rgba(2, 2, 12, 0.13)
 }

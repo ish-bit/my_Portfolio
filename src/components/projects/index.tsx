@@ -18,7 +18,7 @@ export const Projects = () => {
                 </Row>
                 <Row justify='center' className="sectionPddingMarging" gutter={28}>
                     {projects.map((e: any) => (
-                        <Col span={8}>
+                        <Col xl={8} lg={8} md={12} sm={24} xs={24}>
                             <Badge.Ribbon text={e?.name} className={(currentProject === e?.id) ? "displayOptional" : "badge"} color="rgb(83, 81, 81)">
                                 <CardComponent project={e} setCurrentProject={setCurrentProject}/>
                             </Badge.Ribbon>

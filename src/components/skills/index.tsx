@@ -34,10 +34,10 @@ const CustomPrevArrow = (props:any) => {
 export const Skills = () => {
 
     const images = [
-        reactjs, // Replace with your image paths
+        reactjs,
+        typescript, // Replace with your image paths
         nodejs,
         javascript,
-        typescript,
         html,
         css
     ];
@@ -136,8 +136,9 @@ export const Skills = () => {
         autoplaySpeed: 2400,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
+                  centerPadding: '20',
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 },

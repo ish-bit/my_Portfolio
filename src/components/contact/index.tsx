@@ -24,10 +24,10 @@ export const ContactDetails = () => {
                 </Col>
             </Row>
             <Row className="detailesRow">
-                <Col span={12} className="nameIshika">
+                <Col xl={12} lg={12} md={12} sm={24} xs={24} className="nameIshika">
                     ISHIKA
                 </Col>
-                <Col span={12} className="reserveRigts">
+                <Col xl={12} lg={12} md={12} sm={24} xs={24} className="reserveRigts">
                     © 2024 All Rights Reserved.
                 </Col>
             </Row>
