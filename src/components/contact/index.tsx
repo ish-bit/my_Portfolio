@@ -15,11 +15,11 @@ export const ContactDetails = () => {
             <a target="_blank" href="https://www.linkedin.com/in/ishika-rastogi321/" ><Col className="contactCol hoverlink">
                    <LinkedinFilled className="mailIcon2" /><span className="contacturl">Linkedin</span><ExportOutlined className="mailIcon3" />
                 </Col></a>
-                <Col className="contactCol hoverEmail" onClick={() => { navigator.clipboard.writeText("ishika321rastogi@gmail.com") , message.success({content: 'Copied to clipboard!', key: "notify"})}}>
+                <Col className="contactCol hoverEmail" onClick={() => { navigator.clipboard.writeText("ishika321rastogi@gmail.com") ; message.success({content: 'Copied to clipboard!', key: "notify"})}}>
                     <MailFilled className="mailIcon2" /><span
                         className="contacturl">ishika321rastogi@gmail.com</span><CopyOutlined className="mailIcon3" />
                 </Col>
-                <Col className="contactCol hoverNumber" onClick={() => { navigator.clipboard.writeText("9910847025") , message.success({content: 'Copied to clipboard!', key: "notify"})}}>
+                <Col className="contactCol hoverNumber" onClick={() => { navigator.clipboard.writeText("9910847025") ; message.success({content: 'Copied to clipboard!', key: "notify"})}}>
                     <PhoneFilled className="mailIcon2" /><span className="contacturl">9910847025</span><CopyOutlined className="mailIcon3"/>
                 </Col>
             </Row>
