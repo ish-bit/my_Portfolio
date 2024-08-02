@@ -1,5 +1,5 @@
 import React from 'react';
-import ishh from '../../assets/images/ish-removebg-preview (1).png'
+import ishh from '../../assets/images/ishika2.png'
 import { Image, Space } from 'antd';
 import './style.css'
 
